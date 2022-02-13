@@ -2,8 +2,12 @@
 
 # rocketfuel.sass
 App-like mobile apps with ease 🚀
-
+  
 Rocketfuel helps building up mobile views built in HTML/CSS. It is no full-blown CSS framework, but especially handles layouting responsive fullscreen views.
+
+<a href="https://www.npmjs.com/package/@pocket-rocket/rocketfuel">
+  <img alt="" src="https://img.shields.io/npm/v/@pocket-rocket/rocketfuel.svg">
+</a>
 
 ## Install
 
