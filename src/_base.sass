@@ -1,0 +1,26 @@
+/* Root definitions */
+*, *::after, *::before
+  margin: 0
+  padding: 0
+  box-sizing: inherit
+  
+html
+  // defines what 1rem is
+  // root browser font size is 16px
+  // so 62.5% of 16px is 10px
+  font-size: 62.5% 
+
+  @media (max-height: 499px)
+    font-size: 36%
+  @media (min-height: 500px)
+    font-size: 38%
+  @media (min-height: 580px)
+    font-size: 46%
+  @media (min-height: 640px)
+    font-size: 51%
+  @media (min-height: 800px)
+    font-size: 60.7%
+
+body
+  box-sizing: border-box
+  margin: 0

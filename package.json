@@ -1,0 +1,22 @@
+{
+  "name": "@pocket-rocket/rocketfuel",
+  "version": "0.0.1",
+  "description": "CSS framework for layouting mobile apps. Caution: Hot!",
+  "main": "rocketfuel.sass",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocket-rocket-gmbh/rocketfuel.git"
+  },
+  "author": "Pocket Rocket GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pocket-rocket-gmbh/rocketfuel/issues"
+  },
+  "homepage": "https://github.com/pocket-rocket-gmbh/rocketfuel#readme"
+}

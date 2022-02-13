@@ -1,0 +1,46 @@
+// Positioning helper
+$kinds: ("m": "margin", "p": "padding");
+$sides: ("t": "top", "r": "right", "b": "bottom", "l": "left")
+$values: (0: 0, 1: 0.25rem, 2: 0.5rem, 3: 0.75rem, 4: 1rem, 5: 1.5rem, 6: 3rem)
+$double_sides: ("t": "top", "r": "right", "b": "bottom", "l": "left")
+
+@each $kind_prefix, $kind_prop in $kinds
+  @each $side_prefix, $side_prop in $sides
+    @each $value_prefix, $value_prop in $values
+      .#{$kind_prefix}#{$side_prefix}-#{$value_prefix}
+        #{$kind_prop}-#{$side_prop}: $value_prop
+
+@each $value_prefix, $value_prop in $values
+  .m-#{$value_prefix}
+    margin: $value_prop
+
+  .mx-#{$value_prefix}
+    margin-left: $value_prop
+    margin-right: $value_prop 
+
+  .my-#{$value_prefix}
+    margin-top: $value_prop
+    margin-bottom: $value_prop 
+  
+  .p-#{$value_prefix}
+    padding: $value_prop
+
+  .px-#{$value_prefix}
+    padding-left: $value_prop
+    padding-right: $value_prop 
+
+  .py-#{$value_prefix}
+    padding-top: $value_prop
+    padding-bottom: $value_prop
+  
+
+
+
+
+
+
+
+
+
+
+

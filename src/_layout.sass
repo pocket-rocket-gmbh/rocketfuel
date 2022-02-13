@@ -1,0 +1,33 @@
+.viewport
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  padding: 2rem
+  background-size: cover
+  overflow-y: auto
+
+  @media (min-width: 430px)
+    margin: 0 auto
+    width: 400px
+    
+  &.is-fullscreen
+    display: flex
+    height: 100%
+    flex-flow: column
+
+    img
+      height: 0
+      min-height: 100%
+
+    @for $i from 1 through 50
+      .abs-#{$i}
+        flex: 0 0 #{$i}rem
+
+    @for $i from 1 through 100
+      .rel-#{$i}
+        flex: 0 0 percentage($i / 100)
+
+    .flex
+      flex: 1 1 auto
