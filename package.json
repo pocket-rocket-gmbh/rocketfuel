@@ -1,6 +1,6 @@
 {
   "name": "@pocket-rocket/rocketfuel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CSS framework for layouting mobile apps. Caution: Hot!",
   "main": "rocketfuel.sass",
   "directories": {
